@@ -1,0 +1,5 @@
+/tmp/ccZdhbTU.o: In function `main':
+date_driver.cpp:(.text+0x1f): undefined reference to `Date::Date()'
+date_driver.cpp:(.text+0x3a): undefined reference to `Date::init_date(int, int, int)'
+date_driver.cpp:(.text+0x46): undefined reference to `Date::displayDate()'
+collect2: error: ld returned 1 exit status

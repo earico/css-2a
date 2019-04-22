@@ -1,0 +1,8 @@
+/tmp/ccVfG2v9.o: In function `main':
+classtest.cpp:(.text+0x1f): undefined reference to `Rectangle::Rectangle()'
+classtest.cpp:(.text+0x47): undefined reference to `Rectangle::Rectangle(double, double)'
+classtest.cpp:(.text+0x63): undefined reference to `Rectangle::Rectangle(double)'
+classtest.cpp:(.text+0x6f): undefined reference to `Rectangle::print_rectangle()'
+classtest.cpp:(.text+0x7b): undefined reference to `Rectangle::print_rectangle()'
+classtest.cpp:(.text+0x87): undefined reference to `Rectangle::print_rectangle()'
+collect2: error: ld returned 1 exit status

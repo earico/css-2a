@@ -1,0 +1,10 @@
+/tmp/ccqAf28U.o: In function `main':
+ScooterDriver.cpp:(.text+0x26): undefined reference to `Scooter::Scooter()'
+ScooterDriver.cpp:(.text+0xd4): undefined reference to `Scooter::init_scooter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+ScooterDriver.cpp:(.text+0x150): undefined reference to `Scooter::accelerate()'
+ScooterDriver.cpp:(.text+0x17e): undefined reference to `Scooter::print_speed()'
+ScooterDriver.cpp:(.text+0x1a3): undefined reference to `Scooter::brake()'
+ScooterDriver.cpp:(.text+0x1c8): undefined reference to `Scooter::print_speed()'
+ScooterDriver.cpp:(.text+0x1ed): undefined reference to `Scooter::stop()'
+ScooterDriver.cpp:(.text+0x212): undefined reference to `Scooter::print_speed()'
+collect2: error: ld returned 1 exit status

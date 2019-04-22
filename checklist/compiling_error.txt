@@ -1,0 +1,14 @@
+In file included from /home/earico/Desktop/css-2-programs/checklist/CheckList.cpp:1:0:
+/home/earico/Desktop/css-2-programs/checklist/CheckList.h:11:13: error: ‘string’ does not name a type; did you mean ‘stdin’?
+             string getItem(unsigned int index) const;
+             ^~~~~~
+             stdin
+/home/earico/Desktop/css-2-programs/checklist/CheckList.cpp:14:1: error: redefinition of ‘CheckList::CheckList()’
+ CheckList::CheckList(){
+ ^~~~~~~~~
+/home/earico/Desktop/css-2-programs/checklist/CheckList.cpp:7:1: note: ‘CheckList::CheckList()’ previously defined here
+ CheckList::CheckList(){
+ ^~~~~~~~~
+/home/earico/Desktop/css-2-programs/checklist/CheckList.cpp:27:47: error: no ‘std::__cxx11::string CheckList::getItem(unsigned int) const’ member function declared in class ‘CheckList’
+ string CheckList::getItem(unsigned int index) const{
+                                               ^~~~~
